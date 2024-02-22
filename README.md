@@ -21,7 +21,7 @@ Os problemas que iremos resolver nesse projeto é pesquisar os produtos que dese
 * Processar pedidos
 * Controlar a atualização do estoque
 * Monitorar as vendas
-* Atender os clintes
+* Atender os clientes
 * Gerenciar envios
 
 
