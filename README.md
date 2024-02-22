@@ -17,12 +17,17 @@ Os problemas que iremos resolver nesse projeto é pesquisar os produtos que dese
 * Adicionar produto ao carrinho
 * Escolher forma de pagamento
 * Finalizar compra
+* Cadastrar perfil do cliente
+* Editar perfil
+* Visualizar perfil 
+* Pesquisar perfil
 * Cadastrar o produto
 * Processar pedidos
 * Controlar a atualização do estoque
 * Monitorar as vendas
 * Atender os clientes
-* Gerenciar envios
+* Atualizar status do envio
+* Visaulizar status do envio
 
 
 ## REQUISITOS NÃO FUNCIONAIS:
