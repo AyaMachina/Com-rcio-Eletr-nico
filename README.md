@@ -27,7 +27,7 @@ Os problemas que iremos resolver nesse projeto é pesquisar os produtos que dese
 * Monitorar as vendas
 * Atender os clientes
 * Atualizar status do envio
-* Visaulizar status do envio
+* Visualizar status do envio
 
 
 ## REQUISITOS NÃO FUNCIONAIS:
