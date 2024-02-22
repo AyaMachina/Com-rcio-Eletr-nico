@@ -23,6 +23,11 @@ Os problemas que iremos resolver nesse projeto é pesquisar os produtos que dese
 * Segurança
 * Usabilidade
 * Acessibilidade
+* Compatibilidade
+* Desempenho
+* Escabilidade
+* Confiabilidade
+* Disponibilidade
 
 ## Lista de sistemas de compra e venda:
 
