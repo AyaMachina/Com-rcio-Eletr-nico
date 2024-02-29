@@ -1,6 +1,6 @@
 # Fantasy Style
 
-<img src="fantasia.png" alt="castelo medieval">
+<img src="fantasia.png">
 
 ## Projeto:
 
