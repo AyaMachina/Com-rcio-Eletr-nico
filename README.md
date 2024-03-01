@@ -1,6 +1,7 @@
 # Fantasy Style
 
 ## Projeto:
+<img src= "tati.jpg">
 
  O projeto Fantasy Style é baseado na compra e venda de produtos para fantasias, ajudando você a pesquisar os produtos que deseja
 comprar para criar sua fantasia.
