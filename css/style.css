@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0c0ce94d;;
+    background-color: #5e1014cc;;
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fde3a7d7;
+    background-color: #410711e8;
     padding: 1rem;
 }
 
@@ -50,7 +50,7 @@ body {
 
 .login-button button {
     border: none;
-    background-color: #6c63ff;
+    background-color: #242161;
     padding: 0.4rem 1rem;
     border-radius: 5px;
     cursor: pointer;
