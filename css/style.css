@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #5e1014cc;;
+    background-color: #5e1014cc;
 }
 
 .container {
@@ -198,3 +198,4 @@ body {
     .gender-input {
         margin-top: 0.5rem;
     }
+}
