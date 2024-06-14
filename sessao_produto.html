@@ -5,31 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Marcellus">
     <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
     <title>Sessão de Produtos</title>
 </head>
-<body>
-    <div class="container">
-        <div class="form">
-            <form action="#">
-                <div class="form-header">
-                    <div class="title">
-                        <h1>Produtos</h1>
-                    </div>
+<body id="body-sec">
+    <header>
+        <h1>Fantasy Style</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="carousel">
+            <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
+            <div class="carousel-container">
+                <div class="carousel-slide active">
+                    <img src="setts/img/fantasia da barbie.png" alt="Fantasia da Barbie">
+                    <h2>Fantasia Noiva Cadaver</h2>
                 </div>
-                <div class="input-group">
-                    <div class="input-box">
-                        <input id="firstname" type="text" name="firstname" placeholder="Pesquisar..." required>
-
-                        <li>Fantasia Docinho - Meninas Super Poderosas</li>
-                        <li>Fantasia Noiva Cadaver</li>
-                        <li>Fantasia Velma - Scooby Doo</li>
-                        <li>Fantasia Harry Potter</li>
-                        <li>Fantasia Pirata</li>
-                        
-                    </div>
+                <div class="carousel-slide">
+                    <img src="setts/img/fantasias-halloween-chucky.jpg" alt="fantasia do chuck">
+                    <h2>Fantasia do Chuck</h2>
                 </div>
-            </form>
-        </div>
-    </div>
+                <div class="carousel-slide">
+                    <img src="setts/img/fantasia harry potter.png" alt="Fantasia harry potter">
+                    <h2>Fantasia Harry Potter</h2>
+                    <p>Bolo branco com rosas nas cores branco, vermelho e rosa</p>
+                </div>
+            </div>
+            <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>

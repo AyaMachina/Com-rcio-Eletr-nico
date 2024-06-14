@@ -1,11 +1,25 @@
-body {
-    width: 100%;
+#body-sec {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #DBD8D0;
+}
+
+#body-pri {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #DBD8D0;
+    box-sizing: border-box;
+    width: 100%;
 }
+
+
 
 #titulo_pagina{
     font-family: 'Marcellus', serif;
@@ -19,17 +33,6 @@ h1{
 h2{
     font-family: 'Pinyon Script', cursive;
     
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color:  #DBD8D0;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 
@@ -292,4 +295,77 @@ button a {
     .gender-input {
         margin-top: 0.5rem;
     }
+}
+
+
+
+
+header {
+    background-color: #3f0909;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.carousel {
+    position: relative;
+    max-width: 400px;
+    margin: 20px auto;
+    overflow: hidden;
+    border: 1px solid #dddddd;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-slide img {
+    width: 100%;
+    display: block;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+.carousel-slide h2, .carousel-slide p {
+    text-align: center;
+    margin: 10px 0;
 }
